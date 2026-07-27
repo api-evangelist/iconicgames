@@ -1,8 +1,25 @@
 aid: iconicgames
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iconicgames.png
 name: Iconicgames
-description: Iconicgames is a company surfaced as a portfolio company of kindred-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Iconic Interactive (iconicgames.io) is a game development studio building real-time
+  AI systems for gameplay and interactive storytelling. The team combines game developers and AI
+  scientists with credits on major franchises including GTA, Forza, and Just Cause, and is developing
+  a game demo, "The Oversight Bureau," available on Steam. The company is backed by Kindred Ventures.
+  As of this enrichment pass the studio publishes no public API, SDK, developer portal, or developer
+  documentation; this profile captures its public identity and the security posture of its web
+  domain. It was surfaced as a portfolio company of Kindred Ventures and added to the API Evangelist
+  network for enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/iconicgames/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Games
+- Gaming
+- Game Development
+- Artificial Intelligence
+- Interactive Storytelling
+- Real-time AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/iconicgames-domain-security.yml
 - type: Website
   url: https://iconicgames.io/
+- type: Blog
+  url: https://iconicgames.io/blog
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
